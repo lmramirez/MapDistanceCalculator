@@ -1,6 +1,6 @@
 mydist <- function(mapfile){
 	#add pixmap package location to libPaths and import pixmap
-	.libPaths("/home/matloff/Pub/R32/") #need this on CSIF 32-bit machines, else comment out
+	#.libPaths("/home/matloff/Pub/R32/") #need this on CSIF 32-bit machines, else comment out
 	library(pixmap)
 
 	#read in and plot map file
